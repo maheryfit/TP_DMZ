@@ -1,0 +1,25 @@
+Jul 05 04:22:41.995 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 05 04:22:41.995 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50279.
+Jul 05 04:22:42.005 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 05 04:22:42.007 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips 
+Jul 05 04:22:42.007 GENERAL: working_dir=/home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips
+Jul 05 04:22:42.007 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jul 05 04:22:43.026 HYPERVISOR: exec_cmd: nio create_udp udp-adfab545-cbbc-4bef-b511-7585c9843e88 10000 127.0.0.1 10001 
+Jul 05 04:22:43.028 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-adfab545-cbbc-4bef-b511-7585c9843e88 
+Jul 05 04:22:43.034 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-adfab545-cbbc-4bef-b511-7585c9843e88 1 
+Jul 05 04:22:43.090 HYPERVISOR: exec_cmd: nio create_udp udp-8f8d6b2b-57ce-42bc-bf3c-dbd5b45d0471 10002 127.0.0.1 10003 
+Jul 05 04:22:43.091 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-8f8d6b2b-57ce-42bc-bf3c-dbd5b45d0471 
+Jul 05 04:22:43.102 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8f8d6b2b-57ce-42bc-bf3c-dbd5b45d0471 1 
+Jul 05 04:22:43.531 HYPERVISOR: exec_cmd: nio create_udp udp-52ccdcc2-64ed-4af6-8236-c4f7f2cdfae3 10013 127.0.0.1 10012 
+Jul 05 04:22:43.531 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-52ccdcc2-64ed-4af6-8236-c4f7f2cdfae3 
+Jul 05 04:22:43.553 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-52ccdcc2-64ed-4af6-8236-c4f7f2cdfae3 1 
+Jul 05 04:47:31.438 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-adfab545-cbbc-4bef-b511-7585c9843e88 
+Jul 05 04:47:31.445 HYPERVISOR: exec_cmd: nio delete udp-adfab545-cbbc-4bef-b511-7585c9843e88 
+Jul 05 04:47:31.483 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-8f8d6b2b-57ce-42bc-bf3c-dbd5b45d0471 
+Jul 05 04:47:31.487 HYPERVISOR: exec_cmd: nio delete udp-8f8d6b2b-57ce-42bc-bf3c-dbd5b45d0471 
+Jul 05 04:47:31.541 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-52ccdcc2-64ed-4af6-8236-c4f7f2cdfae3 
+Jul 05 04:47:31.561 HYPERVISOR: exec_cmd: nio delete udp-52ccdcc2-64ed-4af6-8236-c4f7f2cdfae3 
+Jul 05 04:47:31.587 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jul 05 04:47:31.589 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 05 04:47:31.874 HYPERVISOR: Stopped.
+Jul 05 04:47:31.874 GENERAL: reset done.

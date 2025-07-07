@@ -1,0 +1,24 @@
+Jul 05 04:22:42.554 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 05 04:22:42.555 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40823.
+Jul 05 04:22:42.558 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 05 04:22:42.559 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips 
+Jul 05 04:22:42.559 GENERAL: working_dir=/home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips
+Jul 05 04:22:42.560 HYPERVISOR: exec_cmd: ethsw create Switch-WAN 
+Jul 05 04:22:43.199 HYPERVISOR: exec_cmd: nio create_udp udp-8ce791f7-c80b-44e5-bea0-2ea865fa7e3a 10005 127.0.0.1 10004 
+Jul 05 04:22:43.200 HYPERVISOR: exec_cmd: ethsw add_nio Switch-WAN udp-8ce791f7-c80b-44e5-bea0-2ea865fa7e3a 
+Jul 05 04:22:43.204 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-8ce791f7-c80b-44e5-bea0-2ea865fa7e3a 1 
+Jul 05 04:22:43.332 HYPERVISOR: exec_cmd: nio create_udp udp-24f93062-3f7e-4a8b-8fee-f9e7b3435233 10008 127.0.0.1 10009 
+Jul 05 04:22:43.332 HYPERVISOR: exec_cmd: ethsw add_nio Switch-WAN udp-24f93062-3f7e-4a8b-8fee-f9e7b3435233 
+Jul 05 04:22:43.368 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-24f93062-3f7e-4a8b-8fee-f9e7b3435233 1 
+Jul 05 05:02:01.891 HYPERVISOR: exec_cmd: ethsw remove_nio Switch-WAN udp-24f93062-3f7e-4a8b-8fee-f9e7b3435233 
+Jul 05 05:02:01.905 HYPERVISOR: exec_cmd: nio delete udp-24f93062-3f7e-4a8b-8fee-f9e7b3435233 
+Jul 05 05:04:09.245 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-8ce791f7-c80b-44e5-bea0-2ea865fa7e3a 1 
+Jul 05 05:04:33.453 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-8ce791f7-c80b-44e5-bea0-2ea865fa7e3a 1 
+Jul 05 05:06:10.937 HYPERVISOR: exec_cmd: nio create_udp udp-c7229c47-cf0e-46ca-bc95-e7c6412e5bcd 10000 127.0.0.1 10008 
+Jul 05 05:06:10.938 HYPERVISOR: exec_cmd: ethsw add_nio Switch-WAN udp-c7229c47-cf0e-46ca-bc95-e7c6412e5bcd 
+Jul 05 05:06:10.957 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-c7229c47-cf0e-46ca-bc95-e7c6412e5bcd 1 
+Jul 05 05:06:18.258 HYPERVISOR: exec_cmd: ethsw remove_nio Switch-WAN udp-c7229c47-cf0e-46ca-bc95-e7c6412e5bcd 
+Jul 05 05:06:18.280 HYPERVISOR: exec_cmd: nio delete udp-c7229c47-cf0e-46ca-bc95-e7c6412e5bcd 
+Jul 05 05:06:36.740 HYPERVISOR: exec_cmd: nio create_udp udp-c9d67805-009a-4559-8bf3-6f15d5160aae 10000 127.0.0.1 10010 
+Jul 05 05:06:36.741 HYPERVISOR: exec_cmd: ethsw add_nio Switch-WAN udp-c9d67805-009a-4559-8bf3-6f15d5160aae 
+Jul 05 05:06:36.750 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-WAN udp-c9d67805-009a-4559-8bf3-6f15d5160aae 1 

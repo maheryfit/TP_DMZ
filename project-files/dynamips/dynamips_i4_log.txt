@@ -1,0 +1,26 @@
+Jul 05 04:47:59.937 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 05 04:47:59.938 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43799.
+Jul 05 04:47:59.939 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 05 04:47:59.940 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips 
+Jul 05 04:47:59.940 GENERAL: working_dir=/home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips
+Jul 05 04:47:59.940 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jul 05 04:48:34.059 HYPERVISOR: exec_cmd: nio create_udp udp-d5017a23-a066-43e8-8349-6377204b4328 10000 127.0.0.1 10002 
+Jul 05 04:48:34.060 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-d5017a23-a066-43e8-8349-6377204b4328 
+Jul 05 04:48:34.069 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-d5017a23-a066-43e8-8349-6377204b4328 1 
+Jul 05 04:48:39.359 HYPERVISOR: exec_cmd: nio create_udp udp-8a3c1bb8-5393-4834-9e4e-dd8caca5a432 10013 127.0.0.1 10014 
+Jul 05 04:48:39.359 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-8a3c1bb8-5393-4834-9e4e-dd8caca5a432 
+Jul 05 04:48:39.378 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8a3c1bb8-5393-4834-9e4e-dd8caca5a432 1 
+Jul 05 04:48:45.670 HYPERVISOR: exec_cmd: nio create_udp udp-c5587575-18dc-4746-9b48-55a235090c5c 10015 127.0.0.1 10016 
+Jul 05 04:48:45.671 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-c5587575-18dc-4746-9b48-55a235090c5c 
+Jul 05 04:48:45.680 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-c5587575-18dc-4746-9b48-55a235090c5c 1 
+Jul 05 05:02:02.008 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-d5017a23-a066-43e8-8349-6377204b4328 
+Jul 05 05:02:02.018 HYPERVISOR: exec_cmd: nio delete udp-d5017a23-a066-43e8-8349-6377204b4328 
+Jul 05 05:06:49.384 HYPERVISOR: exec_cmd: nio create_udp udp-26bcb712-c2d3-44ae-9296-3aebe14f43e8 10020 127.0.0.1 10019 
+Jul 05 05:06:49.385 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-26bcb712-c2d3-44ae-9296-3aebe14f43e8 
+Jul 05 05:06:49.404 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-26bcb712-c2d3-44ae-9296-3aebe14f43e8 1 
+Jul 05 05:07:14.887 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-26bcb712-c2d3-44ae-9296-3aebe14f43e8 1 
+Jul 05 05:07:14.890 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8a3c1bb8-5393-4834-9e4e-dd8caca5a432 1 
+Jul 05 05:07:14.891 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-c5587575-18dc-4746-9b48-55a235090c5c 1 
+Jul 05 05:07:19.787 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-26bcb712-c2d3-44ae-9296-3aebe14f43e8 1 
+Jul 05 05:07:19.789 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8a3c1bb8-5393-4834-9e4e-dd8caca5a432 1 
+Jul 05 05:07:19.790 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-c5587575-18dc-4746-9b48-55a235090c5c 1 

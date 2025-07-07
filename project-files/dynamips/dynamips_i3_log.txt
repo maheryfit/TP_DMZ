@@ -1,0 +1,21 @@
+Jul 05 04:22:42.604 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 05 04:22:42.605 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58577.
+Jul 05 04:22:42.620 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 05 04:22:42.622 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips 
+Jul 05 04:22:42.622 GENERAL: working_dir=/home/mahery/GNS3/projects/TP_DMZ/project-files/dynamips
+Jul 05 04:22:42.623 HYPERVISOR: exec_cmd: ethsw create Switch-DMZ 
+Jul 05 04:22:43.261 HYPERVISOR: exec_cmd: nio create_udp udp-f303f7bd-de08-4926-a430-6bf7854673a7 10007 127.0.0.1 10006 
+Jul 05 04:22:43.262 HYPERVISOR: exec_cmd: ethsw add_nio Switch-DMZ udp-f303f7bd-de08-4926-a430-6bf7854673a7 
+Jul 05 04:22:43.277 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-f303f7bd-de08-4926-a430-6bf7854673a7 1 
+Jul 05 04:22:43.438 HYPERVISOR: exec_cmd: nio create_udp udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 10010 127.0.0.1 10011 
+Jul 05 04:22:43.439 HYPERVISOR: exec_cmd: ethsw add_nio Switch-DMZ udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 
+Jul 05 04:22:43.449 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 1 
+Jul 05 04:50:09.838 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 1 
+Jul 05 04:50:09.840 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-f303f7bd-de08-4926-a430-6bf7854673a7 1 
+Jul 05 04:50:21.657 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 1 
+Jul 05 04:50:21.658 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-f303f7bd-de08-4926-a430-6bf7854673a7 1 
+Jul 05 05:02:01.949 HYPERVISOR: exec_cmd: ethsw remove_nio Switch-DMZ udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 
+Jul 05 05:02:01.962 HYPERVISOR: exec_cmd: nio delete udp-fe94b331-75f9-4eed-8a4e-c4c5516fb320 
+Jul 05 05:06:45.420 HYPERVISOR: exec_cmd: nio create_udp udp-2774dd6a-e41a-42e1-8b95-66808b0a3634 10017 127.0.0.1 10018 
+Jul 05 05:06:45.421 HYPERVISOR: exec_cmd: ethsw add_nio Switch-DMZ udp-2774dd6a-e41a-42e1-8b95-66808b0a3634 
+Jul 05 05:06:45.429 HYPERVISOR: exec_cmd: ethsw set_access_port Switch-DMZ udp-2774dd6a-e41a-42e1-8b95-66808b0a3634 1 
